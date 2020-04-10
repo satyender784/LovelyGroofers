@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="shortcut icon" type="image/png" href="favicon/favicon.png"/>
+	<link rel="stylesheet" type="text/css" href="lovelygroofers.css">
+	<script src="lovelygroofers.js"></script>
+	<style>
+	.button:hover
+	{
+      background-color: whitesmoke;
+      color:  grey;
+      font-size: 40px;
+      text-align: center;
+      border-radius: 10px;
+	}
+	.button
+	{
+		background-color: grey;color:  whitesmoke;font-size: 40px;text-align: center;border-radius: 10px
+	}
+	</style>
+</head>
+<body class="body-contact" >
+	<!-- Header Of The Website  -->
+	<div class="header">
+		
+		<div class="header-right">
+		  <a href="index.html">Home</a>
+		  <a href="product/products.html">Products</a>
+		  <a href="advantages/advantages.html">Advantages</a>
+		  <a href="revolution/revolution.html">Revolution</a>
+		  <a href="Contact-Us.html">Contact-Us</a>
+		</div>
+	  </div>
+
+
+	  <form method="post" class="form-style" onsubmit="myFunction()">
+	  	<fieldset style="border-radius:1px;">
+	  		<legend style="font-size: 50px;">Contact Us</legend>
+	  	<p class="form-p">Name: </p>
+	  	<input type="text" name="Name" placeholder="Name ...." style="width: 90%;height: 40px;border-radius: 5px;font-size: 30px;color:blue" required>
+	  	<p class="form-p">Gmail-Id: </p>
+	  	<input type="email" name="Gmail" placeholder="Gmail ...." style="width: 90%;height: 40px;border-radius: 5px;font-size: 30px;color:blue" required>
+	  	<p class="form-p">Organisation:</p>
+	  	<input type="text" name="Organisation" placeholder="Organisation ...."  style="width: 90%;height: 40px;border-radius: 5px;font-size: 30px;color:blue" required>
+	  	<p class="form-p">Mobile Number: </p> 
+	  	<input type="text" name="Mobile Number" placeholder="Mobile Number...." style="width: 90%;height: 40px;border-radius: 5px;font-size: 30px;color:blue" required>
+	  	<p class="form-p">Suggestion: </p> 
+	  	<textarea name="comment" form="usrform" style="width: 90%;height: 40px;border-radius: 5px;font-size: 30px;"></textarea><br><br><br>
+       <center> <button class="button" type="submit"  value="Submit">Submit</button></center>
+	  		  	</fieldset>
+	  </form>
+	  <img src="img/contact.png" style="float: right;">
+	  

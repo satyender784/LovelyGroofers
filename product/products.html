@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Products
+        </title>
+        <link rel="shortcut icon" type="image/png" href="../favicon/favicon.png"/>
+	<link rel="stylesheet" type="text/css" href="../lovelygroofers.css">
+        <style>
+            .menuline
+            {
+                width: 100%;
+                height: 30px;
+                background-color: rgb(85, 243, 85);
+                color: black;
+                border-radius: 10px;
+            }
+            .menuitem
+            {
+                max-width: 400px;
+                float: left;
+                margin-top: 5.5px;
+                margin-left: 190px;
+                font-family: sans-serif;
+                font-size: large;
+            }
+            .menuitem:hover
+            {
+                background-color: white;
+                border-radius: 8px;
+            }
+            .beans
+            {
+                width: 16.23%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 48px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .brinjal
+            {
+                width: 15%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 50px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .broccoli
+            {
+                width: 17.35%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 50px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .brusselsprouts
+            {
+                width: 16.8%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 50px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .cabbage
+            {
+                width: 16%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 50px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .carrot
+            {
+                width: 10%;
+                float: left;
+                margin-top: 55px;
+                margin-left: 90px;
+                height: 320px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .cauliflower
+            {
+                width: 10%;
+                float: left;
+                margin-top: 55px;
+                margin-left: 60px;
+                height: 320px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .celery
+            {
+                width: 17.71%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 80px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .cucumber
+            {
+                width: 17.55%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 50px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .dolichosbeans
+            {
+                width: 10%;
+                float: left;
+                margin-top: 55px;
+                margin-left: 60px;
+                height: 320px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .greencapsicum
+            {
+                width: 10%;
+                float: left;
+                margin-top: 55px;
+                margin-left: 60px;
+                height: 320px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .garlic
+            {
+                width: 17.25%;
+                float: left;
+                margin-top: 41px;
+                margin-left: 10px;
+                height: 294px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .ginger
+            {
+                width: 18.35%;
+                float: left;
+                margin-top: 55px;
+                margin-left: 50px;
+                height: 280px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .greenchilli
+            {
+                width: 25%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 50px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .ladyfinger
+            {
+                width: 16%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 120px;
+                height: 290px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .lemons
+            {
+                width: 18.32%;
+                float: left;
+                margin-top: 40px;
+                margin-left: 65px;
+                height: 280px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .lettuce
+            {
+                width: 16%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 65px;
+                height: 290px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .mushroom
+            {
+                width: 20%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 50px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .onion
+            {
+                width: 20%;
+                float: left;
+                margin-top: 50px;
+                margin-left: 20px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .potato
+            {
+                width: 17.8%;
+                float: left;
+                margin-top: 36px;
+                margin-left: 65px;
+                height: 284px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .radish
+            {
+                width: 13.4%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 60px;
+                height: 345px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .redcapsicum
+            {
+                width: 16%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 40px;
+                height: 290px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .redchilli
+            {
+                width: 15%;
+                float: left;
+                margin-top: 55px;
+                margin-left: 60px;
+                height: 320px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .spinach
+            {
+                width: 16%;
+                float: left;
+                margin-top: 22px;
+                margin-left: 40px;
+                height: 298px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .sweetpotato
+            {
+                width: 17.2%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 40px;
+                height: 290px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .tomato
+            {
+                width: 18.3%;
+                float: left;
+                margin-top: 44px;
+                margin-left: 40px;
+                height: 276px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .frostedflakes
+            {
+                width: 18.3%;
+                float: left;
+                margin-top: 75px;
+                margin-left: 10px;
+                height: 260px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .capncrunch
+            {
+                width: 14.95%;
+                float: left;
+                margin-top: 16px;
+                margin-left: 10px;
+                height: 322px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .milk
+            {
+                width: 20%;
+                float: left;
+                margin-top: 73px;
+                margin-left: 10px;
+                height: 265px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .bread
+            {
+                width: 18.3%;
+                float: left;
+                margin-top: 100px;
+                margin-left: 100px;
+                height: 280px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .chocomuffins
+            {
+                width: 13.1%;
+                float: left;
+                margin-top: 28px;
+                margin-left: 40px;
+                height: 352px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .blueberrymuffin
+            {
+                width: 12.17%;
+                float: left;
+                margin-top: 10px;
+                margin-left: 40px;
+                height: 370px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .honey
+            {
+                width: 15.55%;
+                float: left;
+                margin-top: 70px;
+                margin-left: 40px;
+                height: 310px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .tunameat
+            {
+                width: 15%;
+                float: left;
+                margin-top: 60px;
+                margin-left: 40px;
+                height: 320px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .salmonmeat
+            {
+                width: 14.9%;
+                float: left;
+                margin-top: 28px;
+                margin-left: 50px;
+                height: 322px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .mackerelmeat
+            {
+                width: 18.3%;
+                float: left;
+                margin-top: 70px;
+                margin-left: 20px;
+                height: 280px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .oats
+            {
+                width: 15%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 20px;
+                height: 320px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .butter
+            {
+                width: 20%;
+                float: left;
+                margin-top: 85px;
+                margin-left: 20px;
+                height: 265px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .goatcheese
+            {
+                width: 19.9%;
+                float: left;
+                margin-top: 85px;
+                margin-left: 20px;
+                height: 265px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .chicken
+            {
+                width: 14.9%;
+                float: left;
+                margin-top: 75px;
+                margin-left: 60px;
+                height: 325px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .cashewbiscuit
+            {
+                width: 14.9%;
+                float: left;
+                margin-top: 80px;
+                margin-left: 60px;
+                height: 320px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .chocobiscuit
+            {
+                width: 18.3%;
+                float: left;
+                margin-top: 120px;
+                margin-left: 60px;
+                height: 280px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .budweiserbeer
+            {
+                width: 12.2%;
+                float: left;
+                margin-top: 10px;
+                margin-left: 60px;
+                height: 390px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .kingfisherbeer
+            {
+                width: 14.8%;
+                float: left;
+                margin-top: 75px;
+                margin-left: 60px;
+                height: 325px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .row::after 
+            {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            .info1
+            {
+                width: 430px;
+                height: 22px;
+                background-color: rgb(85, 243, 85);
+                color: black;
+                border-radius: 10px;
+                margin-top: 10px;
+                font-size: large;
+            }
+            .info2
+            {
+                width: 635px;
+                height: 22px;
+                background-color: rgb(85, 243, 85);
+                color: black;
+                border-radius: 10px;
+                margin-top: 10px;
+                font-size: large;
+            }
+            .info3
+            {
+                width: 310px;
+                height: 22px;
+                background-color: rgb(85, 243, 85);
+                color: black;
+                border-radius: 10px;
+                margin-top: 10px;
+                font-size: large;
+            }
+            .info4
+            {
+                width: 310px;
+                height: 22px;
+                background-color: rgb(85, 243, 85);
+                color: black;
+                border-radius: 10px;
+                margin-top: 10px;
+                font-size: large;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="header" style="background-color:black;">
+		
+		<div class="header-right">
+		  <a href="../index.html">Home</a>
+		  <a href="products.html">Products</a>
+		  <a href="../advantages/advantages.html">Advantages</a>
+		  <a href="../revolution/revolution.html">Revolution</a>
+		  <a href="../Contact-Us.html">Contact-Us</a>
+		</div>
+	  </div>
+       <center> <div class="menuline">
+            
+            <div class="menuitem">
+                <a href="productshtml/todayoffers.html"><b>--Today's Offers--</b></a>
+            </div>
+            <div class="menuitem">
+                <a href="productshtml/bestsellers.html"><b>--Best sellers--</b></a>
+            </div>
+            <div class="menuitem">
+                <a href="productshtml/nonet.html"><b>--Want to Donate ?--</b></a>
+            </div>
+        </div></center>
+        <div class="row">
+            <div class="beans">
+                <a href="productshtml/beans.html"><img src="productsimages/beans.jpg" alt="beans"><p style="text-align: center;">Beans</p><br><p style="text-align: center;"><b>RS. 30/-</b> per Kilogram</p></a>
+            </div>
+            <div class="brinjal">
+                <a href="productshtml/brinjal.html"><img src="productsimages/brinjal.jpg" alt="brinjal"><p style="text-align: center;">Brinjal</p><br><p style="text-align: center;margin-top: 25px;"><b>RS. 40/-</b> per Kilogram</p></a>
+            </div>
+            <div class="broccoli">
+                <a href="productshtml/broccoli.html"><img src="productsimages/broccoli.jpg" alt="broccoli"><p style="text-align: center;">Broccoli</p><br><p style="text-align: center;margin-top: 4px;"><b>RS. 35/-</b> per Kilogram</p></a>
+            </div>
+            <div class="brusselsprouts">
+                <a href="productshtml/brusselsprouts.html"><img src="productsimages/brusselsprouts.jpg" alt="Brussel sprouts"><p style="text-align: center;">Brussel sprouts</p><br><p style="text-align: center; margin-top: 10px;"><b>RS. 550/-</b> per Kilogram</p></a>
+            </div>
+            <div class="cabbage">
+                <a href="productshtml/cabbage.html"><img src="productsimages/cabbage.jpg" alt="cabbage"><p style="text-align: center;">Cabbage</p><br><p style="text-align: center;"><b>RS. 50/-</b> per Kilogram</p></a>
+            </div>
+            <div class="celery">
+                <a href="productshtml/celery.html"><img src="productsimages/celery.jpg" alt="celery"><p style="text-align: center;">Celery</p><br><p style="text-align: center; margin-top: 0.5px;"><b>RS. 40/-</b> per Kilogram</p></a>
+            </div>
+            <div class="cucumber">
+                <a href="productshtml/cucumber.html"><img src="productsimages/cucumber.jpg" alt="cucumber"><p style="text-align: center;">Cucumber</p><br><p style="text-align: center;margin-top: 1px;"><b>RS. 30/-</b> per Kilogram</p></a>
+            </div>
+            <div class="greenchilli">
+                <a href="productshtml/greenchilli.html"><img src="productsimages/greenchilli.jpg" alt="greenchilli"><p style="text-align: center;">Green-Chilli</p><br><p style="text-align: center; margin-top: 42px;"><b>RS. 25/-</b> per Kilogram</p></a>
+            </div>
+            <div class="mushroom">
+                <a href="productshtml/mushroom.html"><img src="productsimages/mushroom.jpg" alt="mushroom"><p style="text-align: center;">Mushroom</p><br><p style="text-align: center; margin-top: 9px;"><b>RS. 650/-</b> per Kilogram</p></a>
+            </div>
+            <div class="onion">
+                <a href="productshtml/onion.html"><img src="productsimages/onion.jpg" alt="onion"><p style="text-align: center;">Onion</p><br><p style="text-align: center; margin-top: 8px;"><b>RS. 25/-</b> per Kilogram</p></a>
+            </div>
+            <div class="redcapsicum">
+                <a href="productshtml/redcapsicum.html"><img src="productsimages/redcapsicum.jpg" alt="redcapsicum"><p style="text-align: center;">Red-Capsicum</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 100/-</b> per Kilogram</p></a>
+            </div>
+            <div class="spinach">
+                <a href="productshtml/spinach.html"><img src="productsimages/spinach.jpg" alt="spinach"><p style="text-align: center;">Spinach</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 178/-</b> per Kilogram</p></a>
+            </div>
+            <div class="sweetpotato">
+                <a href="productshtml/sweetpotato.html"><img src="productsimages/sweetpotato.jpg" alt="sweetpotato"><p style="text-align: center;">Sweet-Potato</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 20/-</b> per Kilogram</p></a>
+            </div>
+            <div class="tomato">
+                <a href="productshtml/tomato.html"><img src="productsimages/tomato.jpg" alt="tomato"><p style="text-align: center;">Tomato</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 35/-</b> per Kilogram</p></a>
+            </div>
+            <div class="carrot">
+                <a href="productshtml/carrot.html"><img src="productsimages/carrot.jpg" alt="carrot"><p style="text-align: center;">Carrot</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 15/-</b> per Kilogram</p></a>
+            </div>
+            <div class="cauliflower">
+                <a href="productshtml/cauliflower.html"><img src="productsimages/cauliflower.jpg" alt="cauliflower"><p style="text-align: center;">Cauli-Flower</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 15/-</b> per Kilogram</p></a>
+            </div>
+            <div class="dolichosbeans">
+                <a href="productshtml/dolichosbeans.html"><img src="productsimages/dolichosbeans.jpg" alt="dolichosbeans"><p style="text-align: center;">Dolichos-Beans</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 45/-</b> per Kilogram</p></a>
+            </div>
+            <div class="greencapsicum">
+                <a href="productshtml/greencapsicum.html"><img src="productsimages/greencapsicum.jpg" alt="greencapsicum"><p style="text-align: center;">Green-Capsicum</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 60/-</b> per Kilogram</p></a>
+            </div>
+            <div class="radish">
+                <a href="productshtml/radish.html"><img src="productsimages/radish.jpg" alt="radish"><p style="text-align: center;">Radish</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 20/-</b> per Kilogram</p></a>
+            </div>
+            <div class="redchilli">
+                <a href="productshtml/redchilli.html"><img src="productsimages/redchilli.jpg" alt="redchilli"><p style="text-align: center;">Red-Chilli</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 120/-</b> per Kilogram</p></a>
+            </div>
+            <div class="ladyfinger">
+                <a href="productshtml/ladyfinger.html"><img src="productsimages/ladyfinger.jpg" alt="ladyfinger"><p style="text-align: center;">Lady-Finger</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 20/-</b> per Kilogram</p></a>
+            </div>
+            <div class="lemons">
+                <a href="productshtml/lemons.html"><img src="productsimages/lemons.jpg" alt="lemons"><p style="text-align: center;">Lemons</p><br><p style="text-align: center; margin-top: 0.0000000000000000000000001px;"><b>RS. 5/-</b> per 1 Lemon(s)</p></a>
+            </div>
+            <div class="lettuce">
+                <a href="productshtml/lettuce.html"><img src="productsimages/lettuce.jpg" alt="lettuce"><p style="text-align: center;">Lettuce</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 40/-</b> per Kilogram</p></a>
+            </div>
+            <div class="potato">
+                <a href="productshtml/potato.html"><img src="productsimages/potato.jpg" alt="potato"><p style="text-align: center;">Potato</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 12/-</b> per Kilogram</p></a>
+            </div>
+            <div class="ginger">
+                <a href="productshtml/ginger.html"><img src="productsimages/ginger.jpg" alt="ginger"><p style="text-align: center;">Ginger</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 137/-</b> per Kilogram</p></a>
+            </div>
+            <div class="garlic">
+                <a href="productshtml/garlic.html"><img src="productsimages/garlic.jpg" alt="garlic"><p style="text-align: center;">Garlic</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 250/-</b> per Kilogram</p></a>
+            </div>
+            <div class="frostedflakes">
+                <a href="productshtml/frostedflakes.html"><img src="productsimages/frostedflakes.jpg" alt="frostedflakes"><p style="text-align: center;">Frosted Flakes by Kellog's 800g</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 263/-</b> per Unit</p></a>
+            </div>
+            <div class="capncrunch">
+                <a href="productshtml/capncrunch.html"><img src="productsimages/capncrunch.jpg" alt="capncrunch"><p style="text-align: center;">Cap'n Crunch by Quaker oats 800g</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 173/-</b> per Unit</p></a>
+            </div>
+            <div class="milk">
+                <a href="productshtml/milk.html"><img src="productsimages/milk.jpg" alt="milk"><p style="text-align: center;">Milk</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 65/-</b> per Liter</p></a>
+            </div>
+            <div class="bread">
+                <a href="productshtml/bread.html"><img src="productsimages/bread.jpg" alt="bread"><p style="text-align: center;">Bread - 5 packs</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 100/-</b> per 5 packs</p></a>
+            </div>
+            <div class="chocomuffins">
+                <a href="productshtml/chocomuffins.html"><img src="productsimages/chocomuffins.jpg" alt="chocomuffins"><p style="text-align: center;">Choco Muffin pack</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 50/-</b> per 1 pack</p></a>
+            </div>
+            <div class="blueberrymuffin">
+                <a href="productshtml/blueberrymuffin.html"><img src="productsimages/blueberrymuffin.jpg" alt="blueberrymuffin"><p style="text-align: center;">Blueberry Muffin pack</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 70/-</b> per 1 pack</p></a>
+            </div>
+            <div class="honey">
+                <a href="productshtml/honey.html"><img src="productsimages/honey.jpg" alt="honey"><p style="text-align: center;">Honey</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 290/-</b> per Kilogram</p></a>
+            </div>
+            <div class="tunameat">
+                <a href="productshtml/tunameat.html"><img src="productsimages/tunameat.jpg" alt="tunameat"><p style="text-align: center;">Tuna Meat - Fish</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 320/-</b> per Kilogram</p></a>
+            </div>
+            <div class="salmonmeat">
+                <a href="productshtml/salmonmeat.html"><img src="productsimages/salmonmeat.jpg" alt="salmonmeat"><p style="text-align: center;">Salmon Meat - Fish</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 1500/-</b> per Kilogram</p></a>
+            </div>
+            <div class="mackerelmeat">
+                <a href="productshtml/mackerelmeat.html"><img src="productsimages/mackerelmeat.jpg" alt="mackerelmeat"><p style="text-align: center;">Mackerel Meat - Fish</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 150/-</b> per Kilogram</p></a>
+            </div>
+            <div class="oats">
+                <a href="productshtml/oats.html"><img src="productsimages/oats.jpg" alt="oats"><p style="text-align: center;">Oats</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 190/-</b> per Kilogram</p></a>
+            </div>
+            <div class="butter">
+                <a href="productshtml/butter.html"><img src="productsimages/butter.jpg" alt="Butter"><p style="text-align: center;">Butter</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 550/-</b> per Kilogram</p></a>
+            </div>
+            <div class="goatcheese">
+                <a href="productshtml/goatcheese.html"><img src="productsimages/goatcheese.jpg" alt="goatcheese"><p style="text-align: center;">Goat cheese</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 1950/-</b> per Kilogram</p></a>
+            </div>
+            <div class="chicken">
+                <a href="productshtml/chicken.html"><img src="productsimages/chicken.jpg" alt="chicken"><p style="text-align: center;">Chicken Skinless</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 180/-</b> per Kilogram</p></a>
+            </div>
+            <div class="cashewbiscuit">
+                <a href="productshtml/cashewbiscuit.html"><img src="productsimages/cashewbiscuit.jpg" alt="cashewbiscuit"><p style="text-align: center;">Cashew Biscuits</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 250/-</b> per Kilogram</p></a>
+            </div>
+            <div class="chocobiscuit">
+                <a href="productshtml/chocobiscuit.html"><img src="productsimages/chocobiscuit.jpg" alt="chocobiscuit"><p style="text-align: center;">Choco Biscuits</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 250/-</b> per Kilogram</p></a>
+            </div>
+            <div class="budweiserbeer">
+                <a href="productshtml/budweiserbeer.html"><img src="productsimages/budweiserbeer.jpg" alt="budweiserbeer"><p style="text-align: center;">Budweiser Beer [ case - 12 units ]</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 1800/-</b> per Case</p></a>
+            </div>
+            <div class="kingfisherbeer">
+                <a href="productshtml/kingfisherbeer.html"><img src="productsimages/kingfisherbeer.jpg" alt="kingfisherbeer"><p style="text-align: center;">Kingfisher Beer [ case - 12 units ]</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 1420/-</b> per Case</p></a>
+            </div>
+        </div>
+        <hr>
+        <hr>
+        <div class="info">
+            <div class="info1">
+                Contact us : +91 9876543210 , +91 1234567890(toll free)
+            </div>
+            <div class="info2">
+                Address_of_Owner : Jalandhar, Lovely Professional University, Punjab, PIN-144402.
+            </div>
+            <div class="info3">
+                Follow us on Facebook : Lovely Groofers
+            </div>
+            <div class="info4">
+                Follow us on Instagram : Lovely_groofers
+            </div>
+        </div>
+    </body>
+</html>

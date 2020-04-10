@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <script>
+            function abc()
+            {
+                alert("Welcome");
+            }
+            function validate()
+            {
+                alert("validated");
+            }
+            // function over()
+            // {
+            //     document.write("I am Here.")
+            // }
+            function textover()
+            {
+                document.getElementById("1").style.fontSize = 100;
+
+            }
+            function textoverout()
+            {
+                document.getElementById("1").style.fontSize = 60;
+                
+            }
+            function press()
+            {
+                document.write("hello ");
+                
+            }
+        </script>
+    </head>
+    <body>
+        <form method="post" onsubmit="return validate()">
+            <input type="button" value="submit" onclick="abc()">
+            <input type="submit" value="done" >
+            <input type="text" onkeypress="press()">
+        </form>
+        <div onmouseover="over()">
+        Hello Guys</div>
+        <p id="1" onmouseover="textover()" onmouseout="textoverout()">I am King Of the jungle</p>
+
+    </body>
+</html>

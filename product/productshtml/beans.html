@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Products : Beans
+        </title>
+        <script>
+            function dis(val)
+            {
+                document.getElementById("result").value+=val
+            }
+            function solve() 
+            { 
+                let x = document.getElementById("result").value 
+                let y = eval(x)
+                document.getElementById("result").value = y 
+                document.getElementById("mrp").value = y*30
+            }
+            function clr() 
+            { 
+                document.getElementById("result").value = "" 
+            }
+        </script>
+        <style>
+            .centre
+            {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                height: 200px;
+                width: 300px;
+            }
+            .middle
+            {
+                display: block;
+                margin-left: 1500px;
+                height: 20px;
+                width: 20px;
+            }
+            table,th,td
+            {
+                border: 2px solid white;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body style="background-color: white;">
+        <a href="../products.html"><img src="../productsimages/back.jpg" class="middle"></a>
+        <br>
+        <br>
+        <img style="border: 5px solid black;" src="../productsimages/beans.jpg" class="centre"><br><br>
+        <form type="get" action="nonet.html"><center><table></center>
+            <tr>
+                <td><input type="button" value="+" onclick="dis('+1')"/></td>
+                <td rowspan="2"><input type="text" id="result" placeholder="Kilograms here"/></td>
+                <td><input type="button" value="-" onclick="dis('-1')"/></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><input type="button" value="=" onclick="solve()"/></td>
+                <td rowspan="2"><input type="button" value="c" onclick="clr()"/></td>
+            </tr>
+        </table>
+        MRP : <br><input placeholder="MRP will be shown here" style="border-radius: 10px; padding: 5px;" type="text" id="mrp"/>
+        <br>
+        Deliver To : <br><textarea rows="3" cols="100" name="Address" required></textarea>
+        <br>
+        Mobile No. : <br><input style="border-radius: 15px; padding: 3px;" type="text" name="Mobilenumber" placeholder="Mobile Number" maxlength="10" required>
+        <br>
+        <input type=submit value="Buy"/>
+        </form>
+    </body>
+</html>

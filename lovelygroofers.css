@@ -1,0 +1,101 @@
+/********************Heading************************/
+.header {
+  overflow: hidden;
+  
+  padding: 20px 10px;
+}
+.footer 
+{
+    padding:5px;
+    color: green;
+    text-align: center;
+    background-color: white;
+}
+.header a {
+  float: left;
+  color: whitesmoke;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 45px; 
+  line-height: 25px;
+  border-radius: 10px;
+}
+
+.header a.logo {
+  font-size: 45px;
+  font-weight: bold;
+  
+}
+
+.header a:hover {
+  background-color: whitesmoke;
+  color:grey;
+}
+
+
+
+.header-right {
+  float: right;
+}
+
+
+  
+  /***************************Body*************************/
+		.body-home{
+			background-image: url("background.jpeg");
+			background-size:cover ;
+			background-attachment: fixed;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			margin: 0px;
+		}
+/******************************** SHOP BY CATEGORY ****************************/
+    .shop-category{
+      text-align:center;
+      color: wheat;
+      font-size: 20px;
+    }
+
+    .shop-category-data
+    {
+      font-size: 20px;
+      color: white;
+    }
+/*********************************** LATEST PRODUCTS *************************/
+    .products-heading
+    {
+      font-size: 40px; 
+      color:white; 
+      text-align: center;
+    }
+/***************************************About - Us ****************************/ 
+    .about
+    {
+      margin-left:20%;
+      margin-right:20%;
+      border: wheat 1px solid;
+      color: white;
+      padding: 1%;
+      border-radius: 10px;
+    }
+
+    .body-contact{
+      background-image: url('img/ContactUs.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin: 0px;
+    }
+/****************Form*******************/
+    .form-style
+    {
+      float: left;
+      width: 30%;
+      padding-left: 100px;
+    }
+/*************Form Paragraph**************/
+    .form-p
+    {
+      font-size: 25px;
+      color:red;
+    }

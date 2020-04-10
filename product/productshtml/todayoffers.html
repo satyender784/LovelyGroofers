@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Products
+        </title>
+        <style>
+            .menuline
+            {
+                width: 100%;
+                height: 30px;
+                background-color: rgb(85, 243, 85);
+                color: black;
+                border-radius: 10px;
+            }
+            .menuitem
+            {
+                max-width: 400px;
+                float: left;
+                margin-top: 5.5px;
+                margin-left: 190px;
+                font-family: sans-serif;
+                font-size: large;
+            }
+            .menuitem:hover
+            {
+                background-color: white;
+                border-radius: 8px;
+            }
+            .beans
+            {
+                width: 16.23%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 48px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .brinjal
+            {
+                width: 15%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 50px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .broccoli
+            {
+                width: 17.35%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 50px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .brusselsprouts
+            {
+                width: 16.8%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 50px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .cabbage
+            {
+                width: 16%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 50px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .carrot
+            {
+                width: 10%;
+                float: left;
+                margin-top: 55px;
+                margin-left: 30px;
+                height: 320px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .cauliflower
+            {
+                width: 10%;
+                float: left;
+                margin-top: 55px;
+                margin-left: 30px;
+                height: 320px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .celery
+            {
+                width: 17.71%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 80px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .cucumber
+            {
+                width: 17.55%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 70px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .dolichosbeans
+            {
+                width: 10%;
+                float: left;
+                margin-top: 55px;
+                margin-left: 60px;
+                height: 320px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .greencapsicum
+            {
+                width: 10%;
+                float: left;
+                margin-top: 55px;
+                margin-left: 60px;
+                height: 320px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .garlic
+            {
+                width: 17.25%;
+                float: left;
+                margin-top: 41px;
+                margin-left: 100px;
+                height: 294px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .ginger
+            {
+                width: 18.35%;
+                float: left;
+                margin-top: 55px;
+                margin-left: 400px;
+                height: 280px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .greenchilli
+            {
+                width: 25%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 60px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .ladyfinger
+            {
+                width: 16%;
+                float: left;
+                margin-top: 85px;
+                margin-left: 30px;
+                height: 290px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .lemons
+            {
+                width: 18.32%;
+                float: left;
+                margin-top: 95px;
+                margin-left: 30px;
+                height: 280px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .lettuce
+            {
+                width: 16%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 65px;
+                height: 290px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .mushroom
+            {
+                width: 20%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 50px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .onion
+            {
+                width: 20%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 60px;
+                height: 270px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .potato
+            {
+                width: 17.8%;
+                float: left;
+                margin-top: 91px;
+                margin-left: 30px;
+                height: 284px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .radish
+            {
+                width: 13.4%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 30px;
+                height: 345px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .redcapsicum
+            {
+                width: 16%;
+                float: left;
+                margin-top: 30px;
+                margin-left: 40px;
+                height: 290px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .redchilli
+            {
+                width: 15%;
+                float: left;
+                margin-top: 55px;
+                margin-left: 60px;
+                height: 320px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .spinach
+            {
+                width: 16%;
+                float: left;
+                margin-top: 22px;
+                margin-left: 40px;
+                height: 298px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .sweetpotato
+            {
+                width: 17.2%;
+                float: left;
+                margin-top: 10px;
+                margin-left: 60px;
+                height: 290px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .tomato
+            {
+                width: 18.3%;
+                float: left;
+                margin-top: 44px;
+                margin-left: 40px;
+                height: 276px;
+                background-color: rgb(241, 236, 236);
+                border-radius: 20px;
+            }
+            .row::after 
+            {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            .info1
+            {
+                width: 90px;
+                height: 22px;
+                background-color: rgb(85, 243, 85);
+                color: black;
+                border-radius: 10px;
+                margin-top: 10px;
+                font-size: large;
+            }
+            .info2
+            {
+                width: 600px;
+                height: 22px;
+                background-color: rgb(85, 243, 85);
+                color: black;
+                border-radius: 10px;
+                margin-top: 10px;
+                font-size: large;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="menuline">
+            <div class="menuitem">
+                <b>--Home--</b>
+            </div>
+            <div class="menuitem">
+                <a href="../products.html"><b>--Back to Products--</b></a>
+            </div>
+            <div class="menuitem">
+                <a href="bestsellers.html"><b>--Best sellers--</b></a>
+            </div>
+            <div class="menuitem">
+                <a href="nonet.html"><b>--Want to Donate ?--</b></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cucumber">
+                <a href="cucumber.html"><img src="../productsimages/cucumber.jpg" alt="cucumber"><p style="text-align: center;">Cucumber</p><br><p style="text-align: center;margin-top: 1px;"><b>RS. 30/-</b> per Kilogram</p></a>
+            </div>
+            <div class="greenchilli">
+                <a href="greenchilli.html"><img src="../productsimages/greenchilli.jpg" alt="greenchilli"><p style="text-align: center;">Green-Chilli</p><br><p style="text-align: center; margin-top: 42px;"><b>RS. 25/-</b> per Kilogram</p></a>
+            </div>
+            <div class="onion">
+                <a href="onion.html"><img src="../productsimages/onion.jpg" alt="onion"><p style="text-align: center;">Onion</p><br><p style="text-align: center; margin-top: 8px;"><b>RS. 25/-</b> per Kilogram</p></a>
+            </div>
+            <div class="sweetpotato">
+                <a href="sweetpotato.html"><img src="../productsimages/sweetpotato.jpg" alt="sweetpotato"><p style="text-align: center;">Sweet-Potato</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 20/-</b> per Kilogram</p></a>
+            </div>
+            <div class="carrot">
+                <a href="carrot.html"><img src="../productsimages/carrot.jpg" alt="carrot"><p style="text-align: center;">Carrot</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 15/-</b> per Kilogram</p></a>
+            </div>
+            <div class="cauliflower">
+                <a href="cauliflower.html"><img src="../productsimages/cauliflower.jpg" alt="cauliflower"><p style="text-align: center;">Cauli-Flower</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 15/-</b> per Kilogram</p></a>
+            </div>
+            <div class="radish">
+                <a href="radish.html"><img src="../productsimages/radish.jpg" alt="radish"><p style="text-align: center;">Radish</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 20/-</b> per Kilogram</p></a>
+            </div>
+            <div class="ladyfinger">
+                <a href="ladyfinger.html"><img src="../productsimages/ladyfinger.jpg" alt="ladyfinger"><p style="text-align: center;">Lady-Finger</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 20/-</b> per Kilogram</p></a>
+            </div>
+            <div class="lemons">
+                <a href="lemons.html"><img src="../productsimages/lemons.jpg" alt="lemons"><p style="text-align: center;">Lemons</p><br><p style="text-align: center; margin-top: 0.0000000000000000000000001px;"><b>RS. 5/-</b> per 1 Lemon(s)</p></a>
+            </div>
+            <div class="potato">
+                <a href="potato.html"><img src="../productsimages/potato.jpg" alt="potato"><p style="text-align: center;">Potato</p><br><p style="text-align: center; margin-top: 1px;"><b>RS. 12/-</b> per Kilogram</p></a>
+            </div>
+        </div>
+        <hr>
+        <hr>
+        <div class="info">
+            <div class="info1">
+                Contact us
+            </div>
+            <div class="info2">
+                Address_of_Owner : Mumbai, Maharastra, PIN-230532, Near Chowpatty Beach.
+            </div>
+        </div>
+    </body>
+</html>
